@@ -1,0 +1,338 @@
+html{overflow-x:hidden;scroll-behavior:smooth}
+body{background:#fff;margin:0;padding:0!important;font-family:'Chilanka', cursive;font-weight:400;color:#333;overflow-x:hidden}
+*{box-sizing:border-box}
+p{font-size:18px;line-height:30px;color:#1c1c1c;margin:0}
+a,a:focus,a:hover{text-decoration:none!important;transition:ease-in-out .3s}
+a{color:#333}
+button:focus{box-shadow:none!important}
+ul{padding:0;margin:0}
+img{max-width:100%;transition:ease-in-out .3s;width:auto;height:auto}
+
+.search {
+    width: 80%;
+    height: 60px;
+    border-radius: 5px;
+    padding-left: 30px;
+    position: relative;
+}
+.srch-icon {
+    position: absolute;
+    top: 36px;
+    left: 54%;
+    font-size: 28px;
+}
+.contact-details {
+    display: flex;
+}
+.phone {
+    margin-right: 40px;
+}
+.top-head {
+    border-bottom: 2px solid black;
+    padding: 20px 0;
+}
+div#navbarNavDropdown {
+    justify-content: space-around;
+}
+.bottom-head .nav-link {
+    font-size: 22px;
+    margin-left: 20px;
+    color: black;
+}
+.navsocial-icons i {
+    font-size: 28px;
+    margin-left: 10px;
+}
+.banner-sec{
+    background-color: #f9f3ec;
+}
+.shop-btn{
+    color:#41403e;
+    text-transform: uppercase;
+    border: 1px solid #41403e;
+    border-radius: 5px;
+    padding: 20px 48px;
+    transition: all ease-out .5s;
+}
+.shop-btn:hover{
+    background-color:#41403e ;
+    color: white;
+    transition: all ease-out .5s;
+}
+.carousel-item{
+    position: relative;
+}
+.carousel-caption {
+    position: static;
+    text-align: left;
+    padding-left: 80px;
+}
+.carousel-caption p {
+    color: #DEAD6F;
+    font-weight: 300;
+    font-size: 22px;
+}
+.carousel-caption h2 {
+    font-weight: 80px;
+    font-weight: 600;
+    font-size: 80px;
+    color: black;
+    margin: 14px 0 45px 0;
+}
+.carousel-control-next-icon {
+    background: none;
+}
+section.categories {
+    padding: 35px 0;
+}
+.catego-box img {
+    width: 100px;
+    height: 100px;
+    margin: 30px 70px;
+    opacity: 0.4;
+}
+.catego-box img:hover{
+   opacity: 1;
+}
+.cloth-top {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.cloth-top h2{
+    font-size: 60px;
+}
+.foodie-title {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.foodie-title h2{
+    font-size: 60px;
+}
+.card-body h3 {
+    font-size: 28px;
+    padding-top: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.price h4 {
+    color: #dead6f;
+    font-size: 38px;
+    padding-top: 10px;
+}
+.whislist {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 12px 20px;
+}
+.btn-cart {
+    border: 1px solid black;
+    display: inline-block;
+    padding: 10px 26px;
+}
+.btn-cart a{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.whislist a i{
+    font-size: 20px;
+}
+.foodie-tabDetails {
+    margin: 30px 0;
+}
+.foodie-tabDetails .card{
+    border: none;
+    margin-right: 30px;
+    margin-top: 30px;
+    min-width: 30%;
+}
+.card-img-top {
+    border-radius: 20px;
+}
+.pet-clothing .card{
+    border: none;
+}
+.pet-clothing .owl-carousel{
+    margin: 30px 0;
+}
+.add-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tab-content>.active {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.pet-foodies .nav-pills .nav-link{
+    color: black;
+}
+.pet-foodies .nav-pills .nav-link.active {
+    color: white;
+    background-color:#dead6f;
+}
+.pet-foodies li.nav-item {
+    font-size: 22px;
+    margin-right: 30px;
+}
+.pet-clothing .stars{
+    display: flex;  
+}
+.pet-clothing .stars img{
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+.clearance-sale{
+    background-color: #f9f3ec;
+    padding: 0px 0;
+}
+.clear-txthead h4 {
+    font-size: 28px;
+    color: #dead6f;
+    text-transform: uppercase;
+    line-height: 50px;
+}
+.clear-txthead h2 {
+    font-size: 80px;
+    font-weight: 600;
+    margin: 20px 0 40px 0;
+    line-height: 90px;
+}
+.clear-img {
+    padding: 30px;
+    text-align: right;
+}
+.testimonials {
+    padding: 50px;
+}
+.test-detail {
+    padding: 60px 0;
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+.test-detail h2 {
+    font-size: 36px;
+}
+.test-detail p{
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.testimonials .owl-theme .owl-dots .owl-dot span{
+    width: 18px;
+    height: 18px;
+}
+ .contact .form-control {
+    display: block;
+    width: 60%;
+    padding: 22px;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 30px auto;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    appearance: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.contact{
+    background: url(../img/background-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0;
+}
+.contact h3 {
+    font-size: 58px;
+    text-align: center;
+}
+.contact h3 span{
+    color: #dead6f ;
+}
+.contact button.btn.btn-dark.form-control {
+    background: black;
+    color: white;
+    font-weight: 600;
+    font-size: 28px;
+}
+.blog-box {
+    margin-top: 40px;
+}
+.blog-box .card{
+    border: none;
+}
+.read-btn:hover{
+        border-bottom: 3px solid #8a8a8a;
+}
+.card-body a{
+    color: #8a8a8a;
+}
+.card-text {
+    margin-bottom: 20px;
+}
+.read-btn {
+    border-bottom: 3px solid #D9D9D8;
+    transition: all 0.3s ease-in;
+}
+.cat-gallary{
+    position: relative;
+    margin: 80px 0;
+}
+.main-imgBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.img-box{
+    position: relative;
+}
+.overlay img {
+    filter: brightness(0) invert(1);
+    width: 50px;
+    height: 50px;
+    transition: all ease-out .4s;
+}
+.overlay {
+    position: absolute;
+    top: 40%;
+    left: 120px;
+    opacity: 0;
+}
+.img-box:hover .overlay{
+    opacity: 1;
+    transition: all ease-out .4s;
+}
+.img-box img {
+    border-radius: 25px;
+}
+
+
+.footer-sec {
+    padding: 70px 0;
+}
+.pet-shop p {
+    margin: 10px 0;
+}
+.socials a {
+    font-size: 18px;
+    color: #cacaca;
+    width: 160px;
+    height: 160px;
+    padding: 10px;
+    background: #d9d9d8;
+    border: 1px solid #d9d9d8;
+    border-radius: 50%;
+    box-shadow: 0px 4px 12px 0px rgba(0, 0, 0, 0.03);
+    transition: all ease-out .5s;
+}
